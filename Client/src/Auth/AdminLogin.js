@@ -79,8 +79,8 @@ function AdminLogin() {
         </div>
         <div className="p-6 md:p-7 md:pt-5 flex flex-col justify-center">
           <form onSubmit={logInForm}>
-            <h2 className="text-4xl font-bold text-center mb-9 text-gray-600">
-              Login
+            <h2 className="text-3xl font-bold text-center mb-9 text-gray-600">
+             Admin Login
             </h2>
             <div className="space-y-4">
               <input
@@ -116,7 +116,8 @@ function AdminLogin() {
             <button className="w-full bg-green-600 hover:bg-yellow-500 text-white font-bold py-2 px-4 mt-4 rounded">
               Log In
             </button>
-            <h5 className="text-red-600 text-center">{error}</h5>
+            <h5 className="text-gray-500 ml-12 mt-3">Use Email: "admin123@gmail.com" and Password: "#Wasd123" for Admin Login</h5>
+            <h5 className="text-red-600 text-center mt-3">{error}</h5>
           </form>
         </div>
       </div>
